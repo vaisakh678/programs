@@ -1,0 +1,9 @@
+Install GCC 12.1: brew install gcc@12.
+Check GCC 12.1 installation: gcc-12 --version.
+Go to its install location: cd /opt/homebrew/bin.
+Make soft/symbolic links: ln -s gcc-12 gcc and ln -s g++-12 g++.
+********************************************************************************************
+
+
+* emplace_back() is faster than push_back().
+* vector<int> vec(5, 500) first arg is size of the container and second arg is default value to be initilized.
